@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="这里是要被复制的内容" />
+
+    <EditText
+        android:id="@+id/edt_paste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:hint="粘贴的地方" />
+
+    <Button
+        android:id="@+id/btn_popmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹出式菜单"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试事件"
+        android:textSize="20sp"
+        android:onClick="handleClick"/>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="屏幕正中央"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中间的左边"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tv_center"/>
+    <!--centerVertical垂直居中-->
+    <!--toLeftOf="id" 在id为id的控件的左边    当前控件的右边与目标控件的左边对齐-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="与中间控件左对齐"
+        android:textSize="20sp"
+        android:layout_below="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center"/>
+    <!--below在某个控件的下方 -->
+<!--    alignLeft 与指定控件左对齐    当前控件的左边与目标控件的左边对齐-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左上角"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右上角"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左下角"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右下角"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上左对齐"
+        android:textSize="20sp"
+        android:layout_above="@id/tv_center"
+        android:layout_alignLeft="@id/tv_center" />
+</RelativeLayout>
