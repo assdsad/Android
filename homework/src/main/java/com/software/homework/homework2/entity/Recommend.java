@@ -22,12 +22,12 @@ public class Recommend extends Fragment {
 
     public static List<Recommend> getRecommendList() {
         List<Recommend> recommendList = new ArrayList<>();
-        recommendList.add(new Recommend(R.drawable.huawei, "华为", "这是华为手机", "￥5299"));
-        recommendList.add(new Recommend(R.drawable.iphone, "iPhone", "这是苹果手机", "￥4299"));
-        recommendList.add(new Recommend(R.drawable.oppo, "OPPO", "这是OPPO手机", "￥3299"));
-        recommendList.add(new Recommend(R.drawable.rongyao, "荣耀", "这是荣耀手机", "￥2299"));
-        recommendList.add(new Recommend(R.drawable.vivo, "VIVO", "这是VIVO手机", "￥1299"));
-        recommendList.add(new Recommend(R.drawable.xiaomi, "小米", "这是小米手机", "￥1699"));
+        recommendList.add(new Recommend(R.drawable.huawei, "华为", "这是华为手机", "5299"));
+        recommendList.add(new Recommend(R.drawable.iphone, "iPhone", "这是苹果手机", "4299"));
+        recommendList.add(new Recommend(R.drawable.oppo, "OPPO", "这是OPPO手机", "3299"));
+        recommendList.add(new Recommend(R.drawable.rongyao, "荣耀", "这是荣耀手机", "2299"));
+        recommendList.add(new Recommend(R.drawable.vivo, "VIVO", "这是VIVO手机", "1299"));
+        recommendList.add(new Recommend(R.drawable.xiaomi, "小米", "这是小米手机", "1699"));
 
         return recommendList;
     }

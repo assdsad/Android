@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_simpledialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单对话框"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_listdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表对话框"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_singlelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选列表对话框"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_multilist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选列表对话框"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_halfdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="半自定义对话框"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="圆形加载框" />
+
+    <Button
+        android:id="@+id/btn_absolute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完全自定义对话框" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+</LinearLayout>

@@ -2,19 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="AlertDialogActivity">
+      <entry key="DialogActivity">
         <State />
       </entry>
-      <entry key="MenuActivity">
+      <entry key="LoginActivity">
         <State />
       </entry>
-      <entry key="NotificationActivity">
+      <entry key="MainActivity (1)">
+        <State />
+      </entry>
+      <entry key="MineActivity">
         <State />
       </entry>
       <entry key="ShoppingActivity">
-        <State />
-      </entry>
-      <entry key="Tab_layout">
         <State />
       </entry>
       <entry key="adapterview">
@@ -23,13 +23,34 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="avatar">
+        <State />
+      </entry>
+      <entry key="avatartest">
+        <State />
+      </entry>
       <entry key="homework">
+        <State />
+      </entry>
+      <entry key="jump">
         <State />
       </entry>
       <entry key="layout">
         <State />
       </entry>
+      <entry key="lifecycle">
+        <State />
+      </entry>
       <entry key="notification">
+        <State />
+      </entry>
+      <entry key="thread">
+        <State />
+      </entry>
+      <entry key="threadafterclass">
+        <State />
+      </entry>
+      <entry key="threadtext">
         <State />
       </entry>
     </value>

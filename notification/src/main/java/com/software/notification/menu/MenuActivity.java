@@ -69,7 +69,6 @@ public class MenuActivity extends AppCompatActivity {
                 return true;
             }
         });
-
         btn_test.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {

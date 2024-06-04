@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center">
-
     <Button
         android:id="@+id/btn_exit"
         android:layout_width="wrap_content"
@@ -19,7 +18,7 @@
         android:id="@+id/tv_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="这里会显示所选择的日期"/>
+        android:text="这里会显示所选择的日期" />
     <Button
         android:id="@+id/btn_time"
         android:layout_width="wrap_content"
@@ -30,17 +29,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="这里会显示所选择的时间" />
-
     <Button
         android:id="@+id/btn_custom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="自定义按钮" />
+
     <Button
         android:id="@+id/btn_jump"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳转到ToastActivity" />
-
-
+        android:text="跳转"/>
 </LinearLayout>

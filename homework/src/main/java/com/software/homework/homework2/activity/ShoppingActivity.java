@@ -1,4 +1,4 @@
-package com.software.homework.homework2.shopping;
+package com.software.homework.homework2.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
+import android.widget.BaseAdapter;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
@@ -58,6 +59,8 @@ public class ShoppingActivity extends AppCompatActivity {
         tb_nav.setSelectedTabIndicatorColor(red);//设置选中项下划线为红色
         //是效果生效
         mediator.attach();
+
+
     }
 
     private void initFragments() {
