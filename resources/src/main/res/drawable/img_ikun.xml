@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/avatar1"
+        android:top="20px"
+        android:left="20px" />
+    <item android:drawable="@drawable/avatar2"
+        android:top="2000px"
+        android:left="1900px"
+        android:right="400px" />
+</layer-list>
