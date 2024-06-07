@@ -12,4 +12,9 @@
         android:text="欢迎使用学生信息管理系统"
         android:textSize="20sp"/>
 
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
 </LinearLayout>

@@ -7,7 +7,7 @@ import com.software.homework.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Recommend extends Fragment {
+public class Recommend{
     private Integer productImage;
     private String productName;
     private String productDescription;

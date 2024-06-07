@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.software.jump.activity.StudentListActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
             );
             startActivity(intent);
         });
+
+        ImageView iv_image = findViewById(R.id.iv_image);
+        Glide.with(MainActivity.this).asBitmap().load("https://pic.52112.com/180309/180309_75/HV3Hh7K5yn_small.jpg").into(iv_image);
+
+
     }
 }

@@ -13,7 +13,7 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".activity.MineActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity.RegisterActivity"
             android:exported="true" />
