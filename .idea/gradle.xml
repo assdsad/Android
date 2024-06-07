@@ -15,11 +15,13 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/avatar" />
             <option value="$PROJECT_DIR$/avatartest" />
+            <option value="$PROJECT_DIR$/glide" />
             <option value="$PROJECT_DIR$/homework" />
             <option value="$PROJECT_DIR$/jump" />
             <option value="$PROJECT_DIR$/layout" />
             <option value="$PROJECT_DIR$/lifecycle" />
             <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/resources" />
             <option value="$PROJECT_DIR$/thread" />
             <option value="$PROJECT_DIR$/threadafterclass" />
             <option value="$PROJECT_DIR$/threadtext" />

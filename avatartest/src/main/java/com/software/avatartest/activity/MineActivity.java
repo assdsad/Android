@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.software.avatartest.R;
 import com.software.avatartest.utils.HostUtil;
 
@@ -58,18 +60,24 @@ public class MineActivity extends AppCompatActivity {
                             try {
                                 //将从系统相册获得的图片赋值给头像
                                 //先用bitmap获取图片
-                                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
-                                iv_avatar.setImageBitmap(bitmap);
+//                                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+//                                iv_avatar.setImageBitmap(bitmap);
+
+                                //使用Glide将头像变成圆形
+                                Glide.with(MineActivity.this)
+                                        .load(uri)
+                                        .transform(new CircleCrop())
+                                        .into(iv_avatar);
 
                                 //将获得的头像上传到服务器
-                                new Thread(){
+                                new Thread() {
                                     @Override
                                     public void run() {
                                         uploadAvatar(uri);
                                     }
                                 }.start();
-                            } catch (IOException e) {
-                                throw new RuntimeException(e);
+                            } finally {
+
                             }
                         }
                     }

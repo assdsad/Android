@@ -29,6 +29,9 @@
       <entry key="avatartest">
         <State />
       </entry>
+      <entry key="glide">
+        <State />
+      </entry>
       <entry key="homework">
         <State />
       </entry>
@@ -42,6 +45,9 @@
         <State />
       </entry>
       <entry key="notification">
+        <State />
+      </entry>
+      <entry key="resources">
         <State />
       </entry>
       <entry key="thread">
